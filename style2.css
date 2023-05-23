@@ -1,0 +1,35 @@
+@media (min-width : 1022px) {
+    .Header {
+        gap: 22rem;
+        justify-content: center;
+         
+    }
+    .logo h2 {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .Burger {
+        margin-left: -25rem;
+    }
+    nav {
+        background: rgba(255, 255, 255);
+        position: absolute;
+        width: 10000%;
+        right: -100%;
+        top: 180%;
+        height: 15vh;
+        visibility: hidden;
+        padding: 2rem;
+        line-height: 2rem;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: all .3s linear;
+        box-shadow:  100px 100px 100px 100px rgba(17, 16, 16, 0.3),
+        -0px -100px 100px 100px rgba(17, 16, 16, 0.3); 
+    }
+    nav ul {
+        display: flex;
+        gap: 3rem;
+    }
+}
