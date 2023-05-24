@@ -235,7 +235,7 @@ body {
     z-index: 1;
 }
 .logo h2 {
-    width: 70%;
+    /* width: 65%; */
     text-align: center;
     text-transform: uppercase;
 }
@@ -265,8 +265,8 @@ nav {
     position: absolute;
     width: 1000%;
     left: -70%;
-    top: 130%;
-    height: 35vh;
+    top: 180%;
+    /* height: 35vh; */
     visibility: hidden;
     padding: 2rem;
     line-height: 2rem;
@@ -472,12 +472,13 @@ nav li {
 .city, .city2 {
   width: 100%;
 }
-.button {
+.Submit {
   margin-top: 2rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
-.button button {
+.Submit button {
   background: gray;
+  text-transform: uppercase;
   cursor: pointer;
   font-size: 18px;
   padding: 1rem;
@@ -486,7 +487,7 @@ nav li {
   border-radius: 10px;
   outline: none;
 }
-.button button:hover {
+.Submit button:hover {
   background: red;
   transition: all .3s linear;
 }
