@@ -483,7 +483,8 @@ nav li {
   cursor: pointer;
   font-size: 18px;
   padding: 1rem;
-  width: 32%;
+  width: 38%;
+  text-align: center;
   border: none;
   border-radius: 10px;
   outline: none;
